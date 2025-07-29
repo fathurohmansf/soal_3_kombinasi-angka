@@ -9,6 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/docs
+/.idx/*
 
 # testing
 /coverage
@@ -39,6 +41,7 @@ next-env.d.ts
 
 .genkit/*
 .env*
+.idx/*
 
 # firebase
 firebase-debug.log

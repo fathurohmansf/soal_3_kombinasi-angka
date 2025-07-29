@@ -137,7 +137,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <header className="text-center mb-8">
               <h1 className="font-headline text-4xl md:text-5xl font-bold text-primary mb-2">
-                LetterVerse
+                Kalkulator Kombinasi Persamaan angka
               </h1>
               <p className="text-lg text-muted-foreground">
                 Ubah urutan digit menjadi semua kemungkinan kombinasi huruf.
@@ -173,16 +173,12 @@ export default function Home() {
                     {isLoading ? 'Menghitung...' : 'Hitung'}
                   </Button>
                 </form>
-                 <div className="flex flex-wrap gap-2 mt-4">
-                   <Button variant="outline" size="sm" onClick={testExample}>
-                      <TestTube2 className="mr-2 h-4 w-4" />
-                      Test Contoh
-                   </Button>
+                  <div>
                    <Button variant="ghost" size="sm" onClick={handleClear} className="text-destructive hover:bg-destructive/10 hover:text-destructive">
                       <Trash2 className="mr-2 h-4 w-4"/>
                       Clear
                    </Button>
-                 </div>
+                   </div>
               </CardContent>
             </Card>
 
@@ -259,7 +255,7 @@ export default function Home() {
           </div>
         </main>
         <footer className="text-center p-4 text-muted-foreground text-sm">
-          Dibangun dengan ❤️ untuk LetterVerse.
+        © 2025 Ahmad Fathurohman.
         </footer>
       </div>
   );

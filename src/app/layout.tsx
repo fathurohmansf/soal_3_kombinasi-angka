@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'LetterVerse',
+  title: 'Kalkulator Kombinasi Persamaan angka',
   description: 'Ubah urutan digit menjadi semua kemungkinan kombinasi huruf.',
 };
 
